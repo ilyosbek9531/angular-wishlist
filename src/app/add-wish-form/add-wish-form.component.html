@@ -1,0 +1,9 @@
+<form class="form">
+    <div class="form_input">
+      <label for="specificSizeInputName">Wish</label>
+      <input name="new-wish-text" type="text" [(ngModel)]="newWishText">
+    </div>
+    <div>
+      <button type="submit" (click)="$event.preventDefault(); addNewWish()">Add Wish</button>
+    </div>
+</form>

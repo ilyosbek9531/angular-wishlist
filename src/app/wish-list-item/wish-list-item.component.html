@@ -1,0 +1,11 @@
+<li class="wishlist_li">
+  <label [ngClass]="{ strikeout: this.wish.isComplete }">
+    <input
+      type="checkbox"
+      [checked]="this.wish.isComplete"
+      (click)="togleFullFilled()"
+    />
+    {{ wish.wishText }}
+  </label>
+  <button type="button" (click)="removeWish()">x</button>
+</li>

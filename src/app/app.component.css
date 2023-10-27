@@ -1,0 +1,16 @@
+.wishlist {
+  display: flex;
+  align-items: center;
+}
+
+.form {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.form_input {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
